@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://i0.wp.com/i.pinimg.com/originals/c8/17/63/c81763baf665829ce0d07f255eeca764.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    float: left; width: 100%; background: #9a6eff; padding: 0px; border: 1px solid #8753ff;
+}
+
+
+.menu {list-style: none; border: 15px solid #9a6eff; font-size: 37px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: left; padding: 0; margin: 0;}
+
+.menu li {position: relative; background-color: #9a6eff;float: left; border-right: 1px solid #9a6eff;}
+
+.menu li a {color: #333; text-decoration: none; padding: 20px 25px; display: block;}
+
+.menu li a:hover {background-color: #333; color: #ffffff;}
+
+form {
+    padding: 45px;
+    text-align: right;
+}
+
+input[type=submit]{
+    background-color: #383838;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #5e5e5e;
+    color: aliceblue;
+    width: 6%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+    border-left: 10px;
+    
+}
+input[type=search]{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #5e5e5e;
+    width: 16%;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+section{
+    padding-left: 14%;
+    padding-right: 12%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+
+.container{
+    padding-top: 13%;
+    padding-bottom: 3%;
+    padding-right: 4%;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    padding-left: 3%;
+    background-color: aliceblue;
+    border: 5px solid aliceblue;
+  }
+  
+
+  img{
+    width: 600px;
+    height: 800px;
+    border: 1px solid #5e5e5e;
+    border-radius: 15px;
+  }

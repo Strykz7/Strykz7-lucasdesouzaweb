@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://i0.wp.com/i.pinimg.com/originals/c8/17/63/c81763baf665829ce0d07f255eeca764.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    float: left; width: 100%; background: #9a6eff; padding: 0px; border: 1px solid #8753ff;
+}
+
+
+.menu {list-style: none; border: 15px solid #9a6eff; font-size: 37px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: left; padding: 0; margin: 0;}
+
+.menu li {position: relative; background-color: #9a6eff;float: left; border-right: 1px solid #9a6eff;}
+
+.menu li a {color: #333; text-decoration: none; padding: 20px 25px; display: block;}
+
+.menu li a:hover {background-color: #333; color: #ffffff;}
+
+
+p {text-align: center;}
+
+
+article{
+    padding: 135px;
+}
+
+.formulario {
+    padding: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.formulario p {
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label,
+.field span {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+input[type=time],
+input[type=date],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+}

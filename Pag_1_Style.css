@@ -1,0 +1,115 @@
+* {box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-image: url("https://i0.wp.com/i.pinimg.com/originals/c8/17/63/c81763baf665829ce0d07f255eeca764.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    width: 1300px;
+    height: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    border: 1px solid #383838;
+    border-radius: 5px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    padding: 10px;
+    color: #333;
+    text-decoration: underline;
+
+}
+
+
+img {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border-radius: 5%;
+    border: 1px solid black;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+/*Duas colunas flutuando uma ao lado da outra */
+nav {
+    float: left; width: 100%; background: #9a6eff; padding: 0px; border: 1px solid #8753ff;
+}
+
+article {
+    float: left; padding-top: 40px; padding-left: 50px; padding-right: 0px; padding-bottom: 50px; width: 75%; ; height:700%; position: relative;
+}
+
+aside {
+    float: right; padding-top: 30px; padding-left: 0px; padding-bottom: 200px; padding-right: 0px; width: 25%;
+}
+
+
+/* Formatação do menu */
+nav ul {list-style-type: none; padding: 0;
+}
+
+/*Limpa o float após a seção */
+section::after {content: ""; display: table; clear: both;}
+
+footer {
+    background-color: #777777; padding: 26px; text-align: center;
+    color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;
+}
+
+
+.menu {list-style: none; border: 15px solid #9a6eff; font-size: 37px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: left; padding: 0; margin: 0;}
+
+.menu li {position: relative; background-color: #9a6eff;float: left; border-right: 1px solid #9a6eff;}
+
+.menu li a {color: #333; text-decoration: none; padding: 20px 25px; display: block;}
+
+.menu li a:hover {background-color: #333; color: #ffffff;}
+
+form {
+    padding: 45px;
+    text-align: right;
+}
+
+input[type=submit]{
+    background-color: #383838;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #5e5e5e;
+    color: aliceblue;
+    width: 6%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+    border-left: 10px;
+    
+}
+input[type=search]{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #5e5e5e;
+    width: 16%;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    
+}

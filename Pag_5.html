@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="Pag_5_Style.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Pag_2.html">Portifólio</a></li>
+            <li><a href="Pag_3.html">Novidades</a></li>
+            <li><a href="Pag_4.html">Contato</a></li>
+            <li><a href="Pag_5.html">Fale Conosco</a></li> 
+            </ul>
+
+        </nav>
+        <article>
+            <form class="formulario" method="post" autocomplete="on">
+            <p>Preencha o formulário abaixo para enviar sua sugestão</p>
+            <div class="field">
+            <label for= "i_nome"> Nome </label>
+                <input type="text" name="nome" placeholder="Digite seu nome aqui" id="i_nome" required>
+            </div>
+            <div class="field">
+            <label for="i_sobrenome"> Sobrenome </label>
+                <input type="text" name="sobrenome" placeholder="Digite seu sobrenome aqui" id="i_sobrenome" required>
+            </div>
+            <div class="field radiobox">
+            <span>Qual sua idade?</span>
+                <input type="radio" name="idade" value="menos18">abaixo de 18 anos<br>
+                <input type="radio" name="idade" value="18_22">entre 18 e 22 anos<br>
+                <input type="radio" name="idade" value="22_30">entre 22 e 30 anos<br>
+                <input type="radio" name="idade" value="30_40">entre 30 e 40 anos<br>
+                <input type="radio" name="idade" value="40_60">entre 40 e 60 anos<br>
+                <input type="radio" name="idade" value="mais60">acima de 60 anos<br>
+            </div>
+            <div class="field">
+            <label for="i_data"> Data </label>
+           <input type="date" name="data" id="i_data" required>
+           </div>
+           <div class="field">
+           <label for="i_hora"> Hora </label>
+           <input type="time" name="hora" id="i_hora" required>
+           </div>
+           <div class="field">
+           <label for= "i_fone"> Telefone </label>
+                <input type="text" name="fone" placeholder="+55" id="i_fone" required>
+            </div>
+            <div class="field">
+            <label for= "i_email"> E-mail </label>
+                <input type="email" name="e-mail" placeholder="Digite seu e-mail aqui" id="i_email" required>
+            </div>
+            <div class="field radiobox">
+            <span>Qual seu grau de satisfação com o site?</span>
+                <input type="radio" name="satisfação" value="Insatisfeito">Insatisfeito<br>
+                <input type="radio" name="satisfação" value="Relativamente_Insatisfeito">Relativamente Insatisfeito<br>
+                <input type="radio" name="satisfação" value="Neutro">Neutro<br>
+                <input type="radio" name="satisfação" value="satisfeito">satisfeito<br>
+                <input type="radio" name="satisfação" value="Muito_satisfeito">Muito satisfeito<br>
+           </div>
+           <div class="field">
+           <textarea name="mensagem" placeholder="Escreva aqui seu comentário" id="mensagem" required></textarea>
+           </div>
+        
+           <input type="submit" value="Enviar">
+           
+           </form>
+           
+        </article>
+    </section>
+</body>
+</html>
